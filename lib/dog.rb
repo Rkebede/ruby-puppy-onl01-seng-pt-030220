@@ -1,12 +1,9 @@
 class Dog 
   
-  attr_accessor :puppy
-  
   @@all = [ ]
   
-  def initalize(puppy)
-    @puppy = puppy
-    @@all << self.new 
+  def initalize
+    @@all << self
   end 
   
 end 
