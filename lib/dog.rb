@@ -6,7 +6,7 @@ class Dog
   
   def initalize(puppy)
     @puppy = puppy
-    @@all 
+    @@all << self.new 
   end 
   
 end 
